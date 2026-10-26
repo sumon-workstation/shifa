@@ -1,0 +1,13 @@
+{
+  "name": "shifa-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SHIFA healthcare booking demo — responsive, browser-local, Vercel-ready",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "check": "node --check dist/app.js && node --check server.mjs && node scripts/check.mjs",
+    "build": "npm run check"
+  },
+  "engines": { "node": ">=22" }
+}
